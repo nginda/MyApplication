@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/loginActivity"
+    tools:context=".Login">
+
+
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="382dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="28dp"
+        android:autofillHints="Firstname"
+        android:hint="FirstName"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="395dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editTextFirstName"
+        android:hint="LastName"
+        android:autofillHints="lastname"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/editTextLastName"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordField"
+        android:layout_marginTop="32dp"
+        android:text="Login"/>
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Create account"
+        android:textColor="#2196F3" />
+
+</RelativeLayout>

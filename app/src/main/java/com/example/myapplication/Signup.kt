@@ -48,7 +48,7 @@ class Signup : AppCompatActivity() {
                 Toast.makeText(this, "User created successfully", Toast.LENGTH_SHORT).show()
                 navigateToLogin()
             } else {
-                Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Fill in all fields", Toast.LENGTH_SHORT).show()
             }
         }
 
